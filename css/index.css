@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+LA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+.logo span {
+    color: rgb(245, 187, 116);
+
+}
+
+.logo span:hover {
+    color: rgb(245, 153, 40);
+    transition: all 0.7s;
+
+}
+
+.logo {
+    color: black;
+    letter-spacing: 4px;
+    font-family: "Playwrite DE LA", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-container {
+    margin-right: 10% !important;
+}
+
+.top-nav-item {
+    margin-right: 30px;
+}
+
+.intro-container {
+    margin-top: 100px;
+}
+
+
+.intro-container .image{
+    margin-top: 24px;
+    padding: 0;
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: -13px -13px 2px 0px rgb(231, 231, 231) ;
+}
+
+section #top-text {
+    padding: 30px;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#top-text h2 {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-style: normal;
+}
+
+.social-icon {
+    width: 28px;
+    border-radius: 8px;
+}
+
+.fb:hover{
+    background-color: rgba(39, 39, 250, 0.8);
+}
+.insta:hover{
+    background-color: rgba(231, 3, 53, 0.7);
+    background-image: linear-gradient(to top left, pink, red);
+}
+.wtsp:hover{
+    background-color: rgba(3, 153, 3, 0.7);
+}
+.twit:hover{
+    background-color: rgba(46, 172, 245, 0.7);
+}
+
+.about-container{
+    margin-top: 5%;
+}
+
+.about-container .bg{
+    /* background-color: rgb(250, 194, 126); */
+    background-color: rgba(216, 215, 215, 0.849);
+}
+
+.about-container .about-img img{
+    border-radius: 30px;
+    /* box-shadow: 12px 12px rgb(248, 211, 166); */
+    box-shadow: 12px 12px rgb(231, 231, 231);
+}
+
+
+.about-container .row{
+    border-radius: 20px;
+    margin-top: 3%;
+}
+.about-text{
+    padding-top: 3%;
+    /* padding-left: 5%; */
+}
+.about-img{
+    padding-top: 3.5%!important;
+    padding-left: 17%;
+}
+.about-text>h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.about-text>h5{
+    margin-bottom: 1px;
+}
+.about-text>p{
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.image-slider{
+    /* border: 2px solid red; */
+    margin-top: 8%;
+}
+
+.image-slider .carousel-inner{
+    margin-top: 3%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contactus-container{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    /* border-radius: 30px; */
+    /* overflow: hidden; */
+}
+
+@media (max-width: 767.98px) {
+    .about-text{
+        padding-left: 50px;
+    }
+}
